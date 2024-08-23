@@ -107,12 +107,27 @@ const Products = () => {
       {filter.map((product) => (
         <div key={product.id} className="col-md-4 col-sm-6 col-xs-8 col-12 mb-4">
           <div className="card text-center h-100">
-            <img
-              className="card-img-top p-3"
-              src={product.image}
-              alt={product.title}
-              height={300}
-            />
+            <div style={{ position: 'relative', display: 'inline-block' }}>
+              <img
+                className="card-img-top p-3"
+                src={product.image}
+                alt={product.title}
+                height={300}
+              />
+              <div style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+                color: 'rgba(255, 255, 255, 0.5)',
+                fontSize: '1.5rem',
+                fontWeight: 'bold',
+                textShadow: '1px 1px 2px rgba(0, 0, 0, 0.7)',
+                pointerEvents: 'none',
+              }}>
+                artcosciences
+              </div>
+            </div>
             <div className="card-body">
               <h5 className="card-title">{product.title.substring(0, 12)}...</h5>
               <p className="card-text">{product.description.substring(0, 90)}...</p>
