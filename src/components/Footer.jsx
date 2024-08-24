@@ -8,7 +8,7 @@ const Footer = () => {
           <div className="col-md-6">
            
             <div className="social-icons">
-              <a className="text-dark fs-4 m-2" href="https://www.instagram.com/p/C_Afs8VsHtn/?igsh=MTlubnc2cjIxbXJvYQ==" target="_blank" rel="noreferrer">
+              <a className="text-dark fs-4 m-2" href="https://x.com/ArtcoSciences?t=E4BPjlzxq3zt5g5Gux-S5g&s=08" target="_blank" rel="noreferrer">
                 <i className="fa fa-twitter"></i>
               </a>
               <a className="text-dark fs-4 m-2" href="https://www.instagram.com/invites/contact/?igsh=ppza4s9pau49&utm_content=vevmi35" target="_blank" rel="noreferrer">
